@@ -8,7 +8,6 @@ Las bibliotecas necesarias para ejecutar el script son:
 ```
 pip install pandas
 pip install requests
-pip install lxml
 pip install beautifulsoup4
 ```
 
