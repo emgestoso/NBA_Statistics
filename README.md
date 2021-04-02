@@ -1,7 +1,7 @@
 # NBA_Statistics
 
 ## Español 
-Obtiene las principales estadísticas de juego de los equipos de la NBA para la temporada 2020/2021 del proveedor de servicios [RealGM.com](https://basketball.realgm.com/nba/team-stats).
+Obtiene las principales estadísticas de juego de los equipos de la NBA para la temporada 2020/2021 del proveedor de servicios [RealGM.com](https://basketball.realgm.com/nba/team_stats/2021/Averages/Team_Totals/Regular_Season/gp/desc).
 
 Las bibliotecas necesarias para ejecutar el script son:
 
