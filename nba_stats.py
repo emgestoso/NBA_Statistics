@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # Declaramos la variable URL como string del link donde descargaremos la informacion
-url = 'https://basketball.realgm.com/nba/team-stats'
+# url = 'https://basketball.realgm.com/nba/team-stats'
 
 season = input("Introduce la temporada que quieres consultar:\n")
 datatype = 'Averages'
