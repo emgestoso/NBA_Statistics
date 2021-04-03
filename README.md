@@ -9,6 +9,7 @@ Las bibliotecas necesarias para ejecutar el script son:
 pip install pandas
 pip install requests
 pip install beautifulsoup4
+pip install os
 ```
 
 Las estadísticas se almacenan en un dataset de tipo CSV.
