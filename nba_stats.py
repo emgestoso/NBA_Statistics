@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import os
 
 # Declaramos la variable URL como string del link donde descargaremos la informacion
 # url = 'https://basketball.realgm.com/nba/team-stats'
@@ -29,3 +30,14 @@ df = pd.DataFrame(columns= columns)
 table = soup.find('table', attrs={'class': 'tablesaw', 'data-tablesaw-mode': 'swipe'}).tbody
 
 trs = table.find_all('tr')
+
+for tr in trs:
+    tds = tr.find_all('td')
+    row = [td.text.replace('\n', '')for td in tds]
+    df = df.append(pd.Series(row, index= columns), ignore_index=True)
+
+print(df)
+
+directory_of_python_script = os.path.dirname(os.path.abspath(_file_))
+
+df.to_csv(os.path.join(directory_of_python_script, "nba_stats.csv"))
