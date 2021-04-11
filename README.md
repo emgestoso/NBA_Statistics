@@ -1,7 +1,19 @@
 # NBA_Statistics
 
+## Autores:
+Enrique Martínez Gestoso y Antonio de la Rubia Salvador
+
+## Contenido:
+README.md: Contiene información sobre los autores, ficheros y contenido del dataset.
+
+nba_stats.py: Contiene el código en Python para la ejecución de un programa de webscrapping sobre la página web https://basketball.realgm.com/nba/team-stats.
+
+nbateams_stats_20-21.csv: Dataset en formato CSV proveniente de la extracción mediante técnicas de web scrapping sobre la página web https://basketball.realgm.com/nba/team-stats.
+
+PRA1_ARS_EMG.pdf: Documento PDF con las respuestas a las preguntas y nombres de los componentes del grupo así como la tabla de contribuciones al trabajo.
+
 ## Español 
-Obtiene las principales estadísticas de juego de los equipos de la NBA para la temporada 2020/2021 del proveedor de servicios [RealGM.com](https://basketball.realgm.com/nba/team_stats/2021/Averages/Team_Totals/Regular_Season/gp/desc).
+Obtiene las principales estadísticas de juego de los equipos de la NBA para la temporada 2020/2021 del proveedor de servicios [RealGM.com](https://basketball.realgm.com/nba/team-stats).
 
 Las bibliotecas necesarias para ejecutar el script son:
 
