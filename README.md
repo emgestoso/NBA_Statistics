@@ -6,7 +6,7 @@ Enrique Martínez Gestoso y Antonio de la Rubia Salvador
 ## Contenido:
 README.md: Contiene información sobre los autores, ficheros y contenido del dataset.
 
-nba_stats.py: Contiene el código en Python para la ejecución de un programa de webscrapping sobre la página web https://basketball.realgm.com/nba/team-stats.
+nba_stats.py: Contiene el código en Python para la ejecución del programa de webscrapping sobre la página web https://basketball.realgm.com/nba/team-stats.
 
 nbateams_stats_20-21.csv: Dataset en formato CSV proveniente de la extracción mediante técnicas de web scrapping sobre la página web https://basketball.realgm.com/nba/team-stats.
 
